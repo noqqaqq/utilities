@@ -25,4 +25,4 @@ struct function_t<void>
 
 } // namespace noqq
 
-#endif
+#endif // NOQQ_FUNCTION_T_H_

@@ -103,4 +103,4 @@ private:
 #define func_caller_o(i, f) noqq::stack_smash_detector<decltype(i)>{i}(&decltype(i)::f)
 #define func_caller(f) noqq::stack_smash_detector<void>()(f)
 
-#endif
+#endif // NOQQ_STACK_SMASH_DETECTOR_H_
